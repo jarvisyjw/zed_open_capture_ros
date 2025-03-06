@@ -58,7 +58,7 @@
 
 int main(int argc, char** argv) {
     // Initialize ROS
-    ros::init(argc, argv, "stereo_node");
+    ros::init(argc, argv, "stereo_node", ros::init_options::AnonymousName);
     ros::NodeHandle nh;
     image_transport::ImageTransport it(nh);
 

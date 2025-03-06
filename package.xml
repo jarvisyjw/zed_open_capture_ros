@@ -4,7 +4,7 @@
   <version>0.1.0</version>
   <description>ROS package to publish stereo camera and IMU data using ZED SDK</description>
 
-  <maintainer email="your_email@example.com">Jingwen</maintainer>
+  <maintainer email="jyubt@connect.ust.hk">Jingwen</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
